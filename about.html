@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand">CVRCE</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <span class="mr-auto"></span>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fa fa-home" aria-hidden="true"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                        Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#loginModal" class="nav-link" data-toggle="modal">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Login</h3>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter Email" id="email">
+                            <div class="form-group">
+                                <label for="password">
+                                    Password
+                                </label>
+                                <input type="password" class="form-control" placeholder="Enter Password" id="password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="height:100%">
+        <div class="carousel slide" id="car" data-ride="carousel" style="padding-top:55px;height:600px" data-interval="5000">
+            <div class="carousel-inner">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#car" data-slide-to="0"></li>
+                    <li data-target="#car" data-slide-to="1"></li>
+                    <li data-target="#car" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-item active" style="height:600px">
+                    <div class="card bg-info text-white">
+                        <div class="card-header"><h1>VISION OF THE INSTITUTE</h1></div>
+                        <div class="card-body" style="height:600px">
+                        
+                        <p>To be a state of the art institution of engineering in pursuit of excellence, in the service of society.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item" style="height:600px">
+                    <div class="card bg-info text-white">
+                        <div class="card-header"><h1>MISSION OF THE INSTITUTE</h1></div>
+                        <div class ="card-body" style="height:600px;">
+                            To excel in providing quality education at under graduate and graduate levels. 
+
+                            To encourage research and innovation.
+    
+                            To provide infrastructure and facilities to meet the latest technological needs.
+    
+                            To establish Centres of Excellence through active interaction with industry.
+    
+                            To nurture students towards holistic development with human values and ethics.
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height:600px">
+                    <div class="card bg-info text-white">
+                        <div class="card-header"><h1>CHERABUDDI SOCIETY</h1></div>
+                        <div class="card-body" style="height:600px">
+                        The Cherabuddi Education Society  aims at creating a state-of-the-art engineering 
+                        institution in association with leading NRI technology professionals and well-known 
+                        academicians of the twin states of Telangana & Andhra Pradesh. 
+                        The Society aims to harness technical excellence and financial power of NRIs in 
+                        making CVR College of Engineering a pre-eminent technical institution.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#car" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon">
+                </span>
+            </a>
+            <a href="#car" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div class="jumbotron bg-warning" style="clear:both;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 align-self-center">
+                    <p class="text-primary text-center h5">
+                        &copy; copyrights 2020 CVR College of Engineering
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.460853988679!2d78.59506221435072!3d17.196418412812296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba659868b4727%3A0xf39a771705e23170!2sCVR%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1592983064232!5m2!1sen!2sin"
+                        width="300" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+
+</html>
